@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакты</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Подключение вашего CSS-файла -->
+    <style>
+        /* Общие стили для всей страницы */
+body {
+    font-family: 'Arial', sans-serif;
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #333;
+}
+
+/* Стили для заголовка */
+h1 {
+    text-align: center;
+    color: #fff;
+    text-shadow: 2px 2px 4px #000;
+}
+
+/* Стили для таблицы с расценками */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+/* Стили для ячеек таблицы */
+th, td {
+    border: 1px solid #ddd;
+    padding: 15px;
+    text-align: center;
+}
+
+/* Стили для заголовков столбцов таблицы */
+th {
+    background-color: #f2f2f2;
+    color: #333;
+    text-transform: uppercase;
+}
+
+/* Анимация при наведении на ячейки таблицы */
+td:hover {
+    background-color: #f2f2f2;
+    transition: background-color 0.3s;
+}
+
+/* Стили для контейнера с контактами */
+.contact-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* Стили для контактной информации */
+.contact-info {
+    flex: 1;
+}
+
+/* Стили для изображений контактов */
+.contact-image {
+    flex: 1;
+    text-align: center;
+}
+
+/* Стили для изображений контактов */
+.contact-image img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+        .contact-container {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .contact-info {
+            flex: 1;
+            padding: 20px;
+        }
+        .contact-info h2 {
+            margin-bottom: 10px;
+        }
+        .contact-info p {
+            margin-bottom: 5px;
+        }
+        .contact-image {
+            flex: 1;
+            text-align: center;
+        }
+        .contact-image img {
+            max-width: 100%;
+            border-radius: 5px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="contact-container">
+        <div class="contact-info">
+            <h2>Контактная информация</h2>
+            <p>Телефон: 123-456-7890</p>
+            <p>Email: info@example.com</p>
+            <p>Адрес: г. Ваш город, ул. Ваша улица, д. 123</p>
+        </div>
+        <div class="contact-image">
+            <img src="PhoneButtonIcon.jpg" alt="Телефон">
+        </div>
+    </div>
+    <div class="contact-container">
+        <div class="contact-info">
+            <h2>Часы работы</h2>
+            <p>Понедельник - Пятница: 9:00 - 18:00</p>
+            <p>Суббота: 10:00 - 16:00</p>
+            <p>Воскресенье: Закрыто</p>
+        </div>
+        <div class="contact-image">
+            <img src="clock-icon-design-vector.jpg" alt="Часы">
+        </div>
+    </div>
+</body>
+</html>

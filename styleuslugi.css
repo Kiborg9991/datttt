@@ -1,0 +1,44 @@
+/* Общие стили для всей страницы */
+body {
+    font-family: 'Arial', sans-serif;
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+
+
+/* Стили для заголовка */
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+/* Стили для таблицы с расценками */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Стили для ячеек таблицы */
+th, td {
+    border: 1px solid #ddd;
+    padding: 15px;
+    text-align: center;
+}
+
+/* Стили для заголовков столбцов таблицы */
+th {
+    background-color: #f2f2f2;
+    color: #333;
+    text-transform: uppercase;
+}
+
+/* Анимация при наведении на ячейки таблицы */
+td:hover {
+    background-color: #f2f2f2;
+    transition: background-color 0.3s;
+}
