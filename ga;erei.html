@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Галерея</title>
+    <link rel="stylesheet" href="gal.css"> <!-- Подключение вашего CSS-файла -->
+    <style>
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin-top: 30px;
+        }
+        .gallery-item {
+            flex: 0 0 30%; /* Измените размеры в соответствии с вашими потребностями */
+            margin-bottom: 20px;
+        }
+        .gallery-item img {
+            width: 100%;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Галерея Детейлинг Центра</h1>
+    <h2 > <a href="glavnia.html" class="button">Главная</a></h2>
+    <div class="gallery">
+        <div class="gallery-item">
+            <img src="regnum_picture_1478782262458203_normal.jpg" alt="Изображение 1">
+        </div>
+        <div class="gallery-item">
+            <img src="toner.jpg" alt="Изображение 2">
+        </div>
+        <div class="gallery-item">
+            <img src="h-1375.jpg" alt="Изображение 3">
+        </div>
+        <!-- Добавьте больше изображений по мере необходимости -->
+    </div>
+</body>
+</html>
